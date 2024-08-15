@@ -1,0 +1,90 @@
+        /*Section Contact*/
+
+        div#wrapper main section#contact{
+            height:100vh;
+            background-color: var(--secondaryColor);
+            color:var(--primaryColor);
+            padding:30px
+        }
+
+        div#wrapper main section#contact h1{
+            font-size:40px;
+            font-weight:900;
+            text-align:center;
+            margin-bottom:50px;
+        }
+
+        div#wrapper main section#contact form{
+            width:75%;
+            margin:auto;
+            padding:50px 100px;
+            background-color:var(--thirdColor);
+            box-shadow: 6px 6px 10px var(--footerColor);
+            text-align:center;
+        }
+
+        div#wrapper main section#contact form label{
+            display:block;
+            font-size:18px;
+            font-weight:500;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        div#wrapper main section#contact form input{
+            width:100%;
+            font-size:14px;
+            background-color: var(--secondaryColor);
+            color: var(--primaryColor);
+            margin-bottom:20px;
+            padding:7px;
+        }
+
+        div#wrapper main section#contact form textarea{
+            width:100%;
+            height:200px;
+            font-size:14px;
+            background-color: var(--secondaryColor);
+            color: var(--primaryColor);
+            resize:none;
+            margin-bottom:20px;
+            padding:7px;
+        }
+
+        div#wrapper main section#contact form input#button{
+            width:100px;
+            background-color: var(--footerColor);
+            color: var(--thirdColor);
+            font-size:18px;
+            margin: auto;
+            padding:10px;
+            cursor:pointer;
+        }
+
+/* Responsive Media Querries*/
+@media only screen and (max-width: 560px) {
+    div#wrapper main section#contact form{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    div#wrapper main section#contact h1{
+        font-size:25px;
+    }
+
+    div#wrapper main section#contact form{
+        width:100%;
+        padding:50px 25px;
+    }
+
+    div#wrapper main section#contact form label{
+        font-size:14px;
+    }
+}
+
+@media (orientation: landscape) {
+    div#wrapper main section#contact{
+        height:auto;
+    }
+}

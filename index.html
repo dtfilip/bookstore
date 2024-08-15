@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Βιβλιοπωλείο</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="index.html"><img src="images/logo.png" ></a>
+            <nav>
+                <ul>
+                    <li><a id="active" href="#">Αρχική</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="about.html">Σχετικά με εμάς</a></li>
+                    <li><a href="#">Ηλεκτρονικό κατάστημα</a></li>
+                    <li><a href="contact.html">Επικοινωνία</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="section-1">
+                <h1>Βιβλία για όλους</h1>
+                <p>Το μεγαλύτερο ελληνικό βιβλιοπωλείο</p>
+            </section>
+            <section id="section-2">
+                <h1>Κατηγορίες βιβλίων</h1>
+                <div id="card-wrapper">
+                    <div class="card">
+                        <img src="images/literature.jpg">
+                        <p>Λογοτεχνία</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/science.jpg">
+                        <p>Επιστήμες</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/history.jpg">
+                        <p>Ιστορικά</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/philosophy.jpg">
+                        <p>Φιλοσοφία</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/science-fiction.jpg">
+                        <p>Φαντασία</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/comics.jpg">
+                        <p>Κόμικ</p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-3">
+                <video autoplay muted loop>
+                    <source src="videos/bookstore.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                </video>
+            </section>
+            <section id="section-4">
+                <h3>Γιατί να επιλέξεις το κατάστημά μας;</h3>
+                <div id="section-4-wrapper">
+                    <div id="section-4-card">
+                        <i class="fa-solid fa-truck"></i>
+                        <p>Δωρεάν μεταφορικά εντός Ελλάδας</p>
+                    </div>
+                    <div id="section-4-card">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <p>Εκατοντάδες βιβλία για να επιλέξεις</p>
+                    </div>
+                    <div id="section-4-card">
+                        <i class="fa-solid fa-percent"></i>
+                        <p>Έκπτωση 10% στις νέες κυκλοφορίες</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer-wrapper">
+                <ul class="footer-navigation">
+                    <li>Πλοήγηση</li>
+                    <li><a href="#">Αρχική</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="about.html">Σχετικά με εμάς</a></li>
+                    <li><a href="#">Kατάστημα</a></li>
+                    <li><a href="contact.html">Επικοινωνία</a></li>
+                </ul>
+                <ul class="footer-navigation">
+                    <li>Βιβλία</li>
+                    <li><a href="#">Λογοτεχνία</a></li>
+                    <li><a href="#">Επιστήμες</a></li>
+                    <li><a href="#">Ιστορικά</a></li>
+                    <li><a href="#">Φιλοσοφία</a></li>
+                    <li><a href="#">Φαντασίας</a></li>
+                    <li><a href="#">Κόμικ</a></li>
+                </ul>
+                <div id="newsletter">
+                    <p>Newsletter</p>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <input type="submit" value="Εγγραφή" id="button">
+                    </form>
+                </div>
+                <div id=social-media>
+                    <p>Social media</p>
+                    <div id="social-media-wrapper">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy;2022 Created by Dimitris Filippou</p>
+        </footer>
+    </div>
+</body>
+</html>
